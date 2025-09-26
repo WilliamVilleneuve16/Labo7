@@ -9,6 +9,11 @@ public class JammoPlayer : MonoBehaviour
 
     [Header("Inputs")]
     [SerializeField] private InputActionReference moveAction;
-
+    
     // TODO : Compléter cette classe.
+
+    private void Awake()
+    {
+        Cursor.lockState = CursorLockMode.Locked;
+    }
 }
